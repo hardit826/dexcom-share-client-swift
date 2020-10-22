@@ -30,6 +30,7 @@ public enum ShareError: Error {
 public enum KnownShareServers: String {
     case US="https://share1.dexcom.com"
     case NON_US="https://shareous1.dexcom.com"
+    case CUSTOM="https://nightscoutshareserver5ac2.azurewebsites.net"
 
 }
 
